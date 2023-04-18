@@ -1,0 +1,20 @@
+table tr th,table tr td{
+    padding-left: 8vw !important;
+}
+
+table tr th{
+    color: #000 !important;
+}
+@media screen and (min-width:900px) {
+    .banner-heading{
+        margin-top:-15vw !important;
+        color:#fff;
+        margin-left:5vw;
+    }
+
+    .banner-back{
+        background:url('../image/book-banner.jpg') !important;
+        width:100% !important;
+        height:330px !important;
+    }
+}

@@ -1,0 +1,16 @@
+@media screen and (min-width:900px) {
+    .banner-heading{
+        margin-top:-15vw !important;
+        color:#fff;
+        margin-left:5vw;
+    }
+
+    .banner-back{
+        background:url('../image/book-banner.jpg') !important;
+        width:100% !important;
+        height:330px !important;
+    }
+    form{
+        margin-left: 30vw !important;
+    }
+}

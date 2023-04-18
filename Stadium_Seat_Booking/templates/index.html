@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+
+<head>
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/home/">Stadium Booking System</a>
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/home/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/booking/">Bookings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/dashboard/">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/signout/">Logout</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+<br><br>
+    <!--Slider-->
+    <!-- Carousel wrapper -->
+    <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <!-- Inner -->
+        <div class="carousel-inner">
+            <!-- Single item -->
+            <div class="carousel-item active">
+                <img src="../static/image/ind-aus-banner.webp" class="d-block w-100"
+                    alt="IND_AUS_BANNER " />
+              
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <img src="../static/image/arijit-banner.webp" class="d-block w-100"
+                    alt="Canyon at Nigh" />               
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <img src="../static/image/garba-banner.webp" class="d-block w-100"
+                    alt="Cliff Above a Stormy Sea" />               
+            </div>
+        </div>
+        <!-- Inner -->
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample"
+            data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample"
+            data-mdb-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div><br><br>
+    <!-- Carousel wrapper -->
+    <div class="heading-home">
+        <h4>Sports</h4>
+    </div><br>
+    <div class="sport-event">
+        <a href="/booking/">
+
+        <div class="card" style="width: 18rem;">
+            <img src="../static/image/match1.webp" class="card-img-top" alt="Sunset Over the Sea" />
+            <div class="card-body">
+                <p class="card-text">Ind vs Aus 1st T20i</p>
+            </div>
+        </div></a>
+        <a href="/booking/">
+        <div class="card" style="width: 18rem;">
+            <img src="../static/image/match2.webp" class="card-img-top" alt="Sunset Over the Sea" />
+            <div class="card-body">
+                <p class="card-text">Ind vs Aus 2nd T20i</p>
+            </div>
+        </div>
+        </a>
+        <a href="/booking/">
+        <div class="card" style="width: 18rem;">
+            <img src="../static/image/match3.webp" class="card-img-top" alt="Sunset Over the Sea" />
+            <div class="card-body">
+                <p class="card-text">Ind vs Aus 3rd T20i</p>
+            </div>
+        </div>
+        </a>    
+        <a href="/booking/">
+        <div class="card" style="width: 18rem;">
+            <img src="../static/image/match1-sa.jpeg" class="card-img-top" alt="Sunset Over the Sea" />
+            <div class="card-body">
+                <p class="card-text">Ind vs RSA 1st T20i</p>
+            </div>
+        </div>
+        </a>
+    </div>
+    <br><br>
+    <div class="heading-home">
+        <h4>Events</h4>
+    </div><br>
+    <div class="event">
+        <a href="/booking/">
+        <div class="card" style="width: 18rem;">
+            <img src="../static/image/arijit-con.jpeg" class="card-img-top" alt="Sunset Over the Sea" />
+            <div class="card-body">
+                <p class="card-text">Arijit Singh Concert</p>
+            </div>
+        </div>
+        </a>
+        <a href="/booking/">
+        <div class="card" style="width: 18rem;">
+            <img src="../static/image/bassi.jpg" class="card-img-top" alt="Sunset Over the Sea" />
+            <div class="card-body">
+                <p class="card-text">Bassi Stand Up Comedy</p>
+            </div>
+        </div>
+        </a>
+        <a href="/booking/">
+        <div class="card" style="width: 18rem;">
+            <img src="../static/image/atif-conc.webp" class="card-img-top" alt="Sunset Over the Sea" />
+            <div class="card-body">
+                <p class="card-text">Atif Aslam Concert</p>
+            </div>
+        </div></a>
+        <a href="/booking/">
+        <div class="card" style="width: 18rem;">
+            <img src="../static/image/garba.webp" class="card-img-top" alt="Sunset Over the Sea" />
+            <div class="card-body">
+                <p class="card-text">Garba</p>
+            </div>
+        </div></a>
+    </div><br><br><br>
+</body>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+
+</html>

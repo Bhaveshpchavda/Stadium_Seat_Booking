@@ -1,0 +1,56 @@
+@media screen and (min-width:900px) {
+    .navbar-brand{
+        margin-left: 7vw !important;
+        margin-right:27vw !important;
+    }
+    .nav-link{
+        margin-left: 3vw !important;
+    }
+    .carousel-inner .carousel-item img{
+        height: 30vw !important;
+    }    
+    .carousel-indicators button{
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 50% !important;
+    }
+    .sport-event,.event{
+        margin-left: 7vw !important;
+        display: flex;
+    }
+    .sport-event .card,.event .card{
+        margin-left: 1vw;
+    }
+    .sport-event .card ,.event .card{
+        background: none !important;
+        box-shadow: none !important;
+    }
+    .sport-event .card .card-text,.event .card .card-text{
+        font-size: 20px !important;
+        color: #000;
+        text-align: center !important;
+    }
+    .heading-home{
+        margin-left: 8vw !important;
+        color: #000 !important;
+        font-weight: 700 !important;
+    }
+    .sport-event .card img{
+        height: 170px !important;
+        border-radius: 10px !important;
+        transition: transform .2s;
+    }
+    .event .card img{
+        height:150px !important;
+        border-radius: 10px !important;
+        transition: transform .2s;
+    }
+    .sport-event .card img:hover,.event .card img:hover {
+        transform: scale(1.05); 
+    }
+  
+}
+
+body{
+    font-family: 'Poppins' !important;
+}
